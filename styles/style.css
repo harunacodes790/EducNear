@@ -550,3 +550,165 @@ nav ul li a {
         }
     }
 }
+
+@media only screen and (max-width: 800px) {
+    nav ul {
+        display: none;
+    }
+
+    .wrapper {
+        height: 100vh;
+    }
+
+    .hero {
+        margin-top: 5em;
+
+        h1 {
+            font-size: 2.5rem;
+        }
+
+        p {
+            font-size: 1rem;
+        }
+    }
+
+    .vision {
+        p {
+            font-size: 1rem;
+            display: inline-block;
+        }
+    }
+
+    .offer {
+        margin: 1.5em;
+    }
+
+    .build {
+        display: block;
+    }
+
+    .eco-system {
+        display: block;
+        text-align: center;
+        margin: 1.5em;
+
+        img {
+            margin-top: 2em;
+        }
+    }
+
+    .community {
+        .cta-buttons {
+            margin-left: 20%;
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .wrapper {
+        margin: 1em;
+    }
+
+    .hero {
+        p {
+            font-size: .8rem;
+        }
+    }
+
+    .vision {
+        margin: 1em;
+
+        h2 {
+            margin: 0;
+        }
+    }
+
+    .offer {
+        align-items: center;
+
+        h2 {
+            margin-bottom: 1em;
+        }
+        .offer-cards {
+            display: block;
+            margin: 1em;
+
+            .card2 {
+                margin-top: 2em;
+                text-align: center;
+            }
+
+            .card3 {
+                margin-top: 2em;
+            }
+
+            .card4 {
+                margin-top: 2em;
+            }
+        }
+    }
+
+    .build {
+        .cards {
+            display: block;
+
+            .card1 {
+                margin-bottom: 1.5em;
+            }
+
+            .card2 {
+                margin-bottom: 1.5em;
+            }
+
+            .card3 {
+                margin-bottom: 1.5em;
+            }
+        }
+    }
+
+    .get-started {
+        p {
+            font-size: .8rem;
+        }
+
+        .cards {
+            display: block;
+        }
+    }
+
+    .eco-system {
+        img {
+            width: 350px;
+        }
+    }
+
+    .community {
+        .cta-buttons {
+            display: block;
+            margin: 1em;
+
+            .btn1 {
+                margin-bottom: 1.5em;
+            }
+        }
+    }
+
+    .faq {
+        display: block;
+        margin: 1em;
+    }
+
+    .footer {
+        display: block;
+        text-align: center;
+
+        h1 {
+            font-size: 2rem;
+        }
+
+        .logo {
+            text-align: center;
+            margin-left: 5em;
+        }
+    }
+}
