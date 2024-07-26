@@ -610,9 +610,9 @@ nav ul li a {
     }
 
     .hero {
+        margin-top: 8em;
         p {
             font-size: .8rem;
-            margin-top: 8em;
         }
     }
 
